@@ -1,5 +1,5 @@
 # About
-This is the demo site for [Fuwari](https://github.com/hbxlkl/blog).
+This is the demo site for [hbxlkl](https://github.com/hbxlkl/blog).
 
 ::github{repo="hbxlkl/blog"}
 
