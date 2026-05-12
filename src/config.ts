@@ -34,11 +34,11 @@ export const siteConfig: SiteConfig = {
 	
 	favicon: [
 		// 网站ico图标设置 Leave this array empty to use the default favicon
-		// {
-		//   src: '/favicon/icon.png',    // 网站ico图标地址 图标路径，对应上面上传的路径（相对于public目录，不可写错）
-		//   theme: 'light',              // 可选：设置为light/dark，仅当有明暗模式不同图标时需配置，默认light即可
-		//   sizes: '32x32',              // 可选：填写你的图标尺寸，与准备的图标尺寸一致，增强兼容性
-		// }
+		{
+		src: '/favicon/icon.ico',    // 网站ico图标地址 图标路径，对应上面上传的路径（相对于public目录，不可写错）
+		theme: 'light',              // 可选：设置为light/dark，仅当有明暗模式不同图标时需配置，默认light即可
+		sizes: '32x32',              // 可选：填写你的图标尺寸，与准备的图标尺寸一致，增强兼容性
+		}
 	],
 };
 
@@ -58,7 +58,7 @@ export const navBarConfig: NavBarConfig = {
 
 // 下面代码是左侧链接
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "assets/images/logo.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "石门摄影",
 	bio: "摄影作品分享与展示",
 	links: [
