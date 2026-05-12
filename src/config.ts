@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
 		fixed: false, // Hide the theme color picker for visitors
 	},
 	banner: {
-		enable: false, // 重点：必须设为true，设为false就是关闭横幅功能，图片肯定不显示
+		enable: true, // 重点：必须设为true，设为false就是关闭横幅功能，图片肯定不显示
 		src: "assets/images/demo-banner.png", // 横幅图片地址  Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
