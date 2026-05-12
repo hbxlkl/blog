@@ -35,7 +35,7 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		// 网站ico图标设置 Leave this array empty to use the default favicon
 		{
-		src: '/favicon/icon.ico',    // 网站ico图标地址 图标路径，对应上面上传的路径（相对于public目录，不可写错）
+		src: '/favicon/favicon.ico',    // 网站ico图标地址 图标路径，对应上面上传的路径（相对于public目录，不可写错）
 		theme: 'light',              // 可选：设置为light/dark，仅当有明暗模式不同图标时需配置，默认light即可
 		sizes: '32x32',              // 可选：填写你的图标尺寸，与准备的图标尺寸一致，增强兼容性
 		}
