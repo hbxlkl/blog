@@ -56,6 +56,7 @@ export const navBarConfig: NavBarConfig = {
 		{
 			name: "哔哩哔哩",
 			url: "https://www.bilibili.com", // 链接网址
+			external: true, // 显示一个外部链接图标，并会在新标签页中打开
 		},
 		
 	],
