@@ -53,6 +53,11 @@ export const navBarConfig: NavBarConfig = {
 			name: "仓库地址",
 			url: "https://github.com/hbxlkl", // 链接网址
 		},
+		{
+			name: "哔哩哔哩",
+			url: "https://www.bilibili.com", // 链接网址
+		},
+		
 	],
 };
 
